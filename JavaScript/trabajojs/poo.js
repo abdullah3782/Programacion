@@ -1,0 +1,11 @@
+var boton=document.getElementById("boton1");
+    var boton2=document.getElementById("boton2");
+    var cuadro=document.getElementById("micuadro");
+    boton.style.width="300px"; 
+    boton.style.height="300px";
+    boton2.style.width="300px"; 
+    boton2.style.height="300px";
+    boton2.focus();
+    cuadro.style.background="red";
+    cuadro.value="Escribe aquí...";
+    cuadro.style.height="200px";
