@@ -20,3 +20,5 @@ document.write ("<p> El primer articulo es <strong>") ;
         articulos.push (prompt("Intridcuce"));
         //aqui muestrara el ultimo array y ya que se empieza de 0 le ponemos -1 para que le reste 1 al ultimmo  
         document.write (articulos [articulos.length-1] + "</strong> </p>");
+        
+        
