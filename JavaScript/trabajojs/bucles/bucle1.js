@@ -1,24 +1,21 @@
 //IMPORTANTE
-//while siempre tiene que oir debajo de la variable y nunca hay que olvidar de un prompt dentro de while
+//while siempre tiene que ir debajo de la variable y nunca hay que olvidar de un prompt dentro de while
 //IMPORTANTE
-var nombre=prompt("Introduce tu nombre");
+//
+var nombre, poblacion, edad;
 //while !isNan por si escribo un numero en vez de un letra 
-while (!isNaN(nombre)) { 
-    alert ("Pon un nombre correcto")  
+do {  
     nombre=prompt("Introduce el nombre correcto") 
-}
-var edad=prompt("Introduce tu edad");
+}while (!isNaN(nombre))
+
 //while !isNan por si escribo un letra en vez de un numero 
 
-while (edad<=0 || edad>105 || isNaN(edad)) {
-    alert ("Pon una edad correcta")
+do{
     edad=prompt("Pon la edad buena anda")
-}
-var poblacion=prompt("Introduce tu población");
+}while (edad<=0 || edad>105 || isNaN(edad))
 
 //while !isNan por si escribo un numero en vez de un letra 
-while (!isNaN(poblacion)) { 
-    alert ("Pon la población correcto")  
+do{ 
     poblacion=prompt("Introduce la población correcta") 
 
-}
+}while (!isNaN(poblacion)) 
