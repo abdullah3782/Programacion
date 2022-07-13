@@ -1,0 +1,37 @@
+.logo {
+    letter-spacing: -1px;
+    color: rgb(204, 102, 0);
+    text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 1px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    margin: 20px 0px 0px 20px;
+}
+
+.principal h1 {
+    font-size: 32px;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
+    margin-bottom: 0.75em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.html, body {
+    line-height: 1;
+    background-color: rgb(51, 72, 115);
+}
+.principal {
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+.principal h1 {
+    font-size: 32px;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px;
+    margin-bottom: 0.75em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
