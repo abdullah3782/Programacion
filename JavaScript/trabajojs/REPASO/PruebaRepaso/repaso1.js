@@ -21,5 +21,5 @@ do{
  edad-=fueraedad;
 }while(isNaN(edad-=fueraedad))
 
-document.write ("Bienvenido " + nombre +" "+ apellido + "<br/>" + "Te gustaria tener " + edad + " años");
+document.write ("Bienvenido tu nombre es " + nombre +" "+ apellido + "<br/>" + "Te gustaria tener " + edad + " años");
 
