@@ -25,7 +25,6 @@ trabajadores[contador]=personas
 //para que sume la cantida una vez
 contador++
 
-
 }
 //para evitar que salga "salir" cuando salgamos del prompt
 trabajadores.pop();
