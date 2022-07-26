@@ -21,7 +21,6 @@ function multiplicacion(num1, num2) {
 
 function division (num1, num2) {
 
-
     alert("La divisíon es " + (num1/num2))
 }
 //para que me pregunte que operación quiero hacer
