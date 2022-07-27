@@ -45,9 +45,14 @@ padding: 5px;
 
     width: 120px;
 }
-#display {    
-    margin-left: 39%;
-    width: 290px;
-height: 40px;
 
+
+#display {
+
+    height: 35px;
+    width: 295px;
+    background-color: #000;
+    color: #0f0;
+    text-align: right;
+    padding: 5px;
 }
