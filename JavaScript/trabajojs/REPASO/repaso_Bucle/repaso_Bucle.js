@@ -16,4 +16,5 @@ edad=prompt("Pon tu edad correcta");
 do {
 
     poblacion=prompt("Pon tu población");
+    
 }while(!isNaN(poblacion));
