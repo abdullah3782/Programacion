@@ -1,3 +1,4 @@
+//READY PAR QUE EL CONTENIDO SE EJECUTE DESPUES DE HABER CARGADO LA PÁGINA
 $(document).ready(function () {
     //asi simplificaré estas 2 líneas
     //var z=document.getElementById("cerrar");
