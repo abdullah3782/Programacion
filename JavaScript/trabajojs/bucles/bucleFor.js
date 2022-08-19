@@ -20,7 +20,8 @@ var contador=0
 while(personas!="salir"){
 //persona=prompt para que lo que se escriba en prompt se almacené en la variable personas
 personas=prompt("Introduce el nombre del trabajor")
-//trabajadores y contadores= personas
+//La primera vez que entramso en el bucle el contador vale 0, entonces al user le damos esa referencia de contador y lo que pongasmos ahí será igual a 0 
+// es decir si ponemos "DARK" en el primer prompt de "personas" empezará a formar la parte 0 de la array
 trabajadores[contador]=personas
 //para que sume la cantida una vez
 contador++
