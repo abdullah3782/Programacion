@@ -1,0 +1,33 @@
+#enlaces{
+position: absolute;
+left:31px;
+top: 65px;
+width: 400px;
+height: 649px;
+z-index: 1;
+padding-top: 100px;
+}
+
+
+a {
+
+display: block;
+font: 24px;
+margin-bottom: 20px;
+
+}
+
+table {
+
+text-align: center;
+border: none;
+
+
+}
+
+td {
+
+border: none;
+
+}
+
