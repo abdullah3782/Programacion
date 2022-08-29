@@ -1,9 +1,20 @@
 $(document).ready(function () {
 
-//$("a[href^='https://']").addClass("links");
+    document.getElementById("cursos").addEventListener("click",resaltacursos, false);
+    document.getElementById("informacion").addEventListener("click",resaltaejemplos, false);
 
 });
 
-function  (arguments) {
-    
+function resaltacursos () {
+
+    $(".cursos").addClass("linkdestacacursos");
+
+}
+
+
+
+function resaltaejemplos() {
+
+    $(".ejemplos").addClass("linkdestacacursos");
+
 }
