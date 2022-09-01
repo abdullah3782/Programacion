@@ -1,0 +1,25 @@
+h1 {
+
+    text-align: center;
+}
+
+div{
+
+    width: 20%;
+    margin: 0 100px;
+    float: left;
+    border: red solid 2px;
+}
+
+table {
+
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+.dis {
+
+margin-left: 230px;
+
+}
